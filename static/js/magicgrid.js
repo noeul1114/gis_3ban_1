@@ -282,6 +282,8 @@ let magicGrid = new MagicGrid({
   useMin: true
 });
 
+magicGrid.listen();
+
 var masonrys = document.getElementsByTagName("img")
 
 for (let i=0; masonrys.length; i++) {
@@ -289,5 +291,3 @@ for (let i=0; masonrys.length; i++) {
     magicGrid.positionItems();
   }, false)
 }
-
-magicGrid.listen();
