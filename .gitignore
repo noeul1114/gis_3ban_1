@@ -84,3 +84,5 @@ __pycache__/
 media/
 
 staticfiles/
+
+pragmatic.pem
